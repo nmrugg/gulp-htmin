@@ -1,33 +1,28 @@
-# gulp-htmlmin [![NPM version](https://badge.fury.io/js/gulp-htmlmin.svg)](http://badge.fury.io/js/gulp-htmlmin) [![Build Status](https://travis-ci.org/jonschlinkert/gulp-htmlmin.svg?branch=master)](https://travis-ci.org/jonschlinkert/gulp-htmlmin)
+# gulp-htmlmin
 
-> Minify HTML.
+Minify HTML via `<a href="https://github.com/gulpjs/gulp/">gulp</a>`.
 
 ## Getting Started
-Install the module with: `npm install gulp-htmlmin --save-dev`
+Install the module with: `npm install gulp-htmin --save-dev`
 
 ## Usage
 
 ```js
-var gulp = require('gulp');
-var htmlmin = require('gulp-htmlmin');
+var gulp = require("gulp");
+var htmlmin = require("gulp-htmin");
 
-gulp.task('minify', function() {
-  gulp.src('src/*.html')
+gulp.task("minify", function() {
+  gulp.src("src/*.html")
     .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest("dist"))
 });
 ```
 
-See the [html-minifer docs](https://github.com/kangax/html-minifier) for options.
+See the <a href="https://github.com/kangax/html-minifier">html-minifer docs</a> for options.
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality.
+## Fork
 
-## Author
-
-+ [github/jonschlinkert](https://github.com/jonschlinkert)
-+ [twitter/jonschlinkert](http://twitter.com/jonschlinkert)
+This began as a fork of <a href="https://github.com/jonschlinkert">gulp-htmlmin</a>
 
 ## License
-Copyright (c) 2014 Jon Schlinkert
-Licensed under the MIT license.
+<a href="http://nate.mit-license.org/">MIT</a>
