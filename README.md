@@ -1,4 +1,4 @@
-# gulp-htmlmin
+# gulp-htmin
 
 Minify HTML via <a href="https://github.com/gulpjs/gulp/">`gulp`</a>.
 
@@ -9,11 +9,11 @@ Install the module with: `npm install gulp-htmin --save-dev`
 
 ```js
 var gulp = require("gulp");
-var htmlmin = require("gulp-htmin");
+var htmin = require("gulp-htmin");
 
 gulp.task("minify", function() {
   gulp.src("src/*.html")
-    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(htmin({collapseWhitespace: true}))
     .pipe(gulp.dest("dist"))
 });
 ```

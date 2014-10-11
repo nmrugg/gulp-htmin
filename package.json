@@ -2,7 +2,7 @@
   "name": "gulp-htmin",
   "description": "Minify HTML via gulp",
   "version": "0.1.4",
-  "homepage": "https://github.com/nmrugg/gulp-htmlmin",
+  "homepage": "https://github.com/nmrugg/gulp-htmin",
   "author": {
     "name": "Nathan Rugg",
     "url": "https://github.com/nmrugg"
@@ -16,15 +16,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nmrugg/gulp-htmlmin.git"
+    "url": "https://github.com/nmrugg/gulp-htmin.git"
   },
   "bugs": {
-    "url": "https://github.com/nmrugg/gulp-htmlmin/issues"
+    "url": "https://github.com/nmrugg/gulp-htmin/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/nmrugg/gulp-htmlmin/blob/master/LICENSE-MIT"
+      "url": "https://github.com/nmrugg/gulp-htmin/blob/master/LICENSE-MIT"
     }
   ],
   "main": "index.js",
