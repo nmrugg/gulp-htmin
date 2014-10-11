@@ -1,6 +1,6 @@
 # gulp-htmlmin
 
-Minify HTML via `<a href="https://github.com/gulpjs/gulp/">gulp</a>`.
+Minify HTML via <a href="https://github.com/gulpjs/gulp/">`gulp`</a>.
 
 ## Getting Started
 Install the module with: `npm install gulp-htmin --save-dev`
