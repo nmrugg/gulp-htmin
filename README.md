@@ -1,9 +1,9 @@
-# gulp-htmlmin [![NPM version](https://badge.fury.io/js/gulp-htmlmin.png)](http://badge.fury.io/js/gulp-htmlmin) [![Build Status](https://travis-ci.org/jonschlinkert/gulp-htmlmin.png?branch=master)](https://travis-ci.org/jonschlinkert/gulp-htmlmin)
+# gulp-htmlmin [![NPM version](https://badge.fury.io/js/gulp-htmlmin.svg)](http://badge.fury.io/js/gulp-htmlmin) [![Build Status](https://travis-ci.org/jonschlinkert/gulp-htmlmin.svg?branch=master)](https://travis-ci.org/jonschlinkert/gulp-htmlmin)
 
 > Minify HTML.
 
 ## Getting Started
-Install the module with: `npm install gulp-htmlmin`
+Install the module with: `npm install gulp-htmlmin --save-dev`
 
 ## Usage
 
@@ -12,9 +12,9 @@ var gulp = require('gulp');
 var htmlmin = require('gulp-htmlmin');
 
 gulp.task('minify', function() {
-  gulp.src('./src/*.html')
+  gulp.src('src/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('dist'))
 });
 ```
 
