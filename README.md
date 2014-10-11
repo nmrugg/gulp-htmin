@@ -22,7 +22,7 @@ See the <a href="https://github.com/kangax/html-minifier">html-minifer docs</a> 
 
 ## Fork
 
-This began as a fork of <a href="https://github.com/jonschlinkert">gulp-htmlmin</a>
+This began as a fork of <a href="https://github.com/jonschlinkert/gulp-htmlmin">gulp-htmlmin</a>.
 
 ## License
 <a href="http://nate.mit-license.org/">MIT</a>
