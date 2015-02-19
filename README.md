@@ -2,6 +2,11 @@
 
 Minify HTML via <a href="https://github.com/gulpjs/gulp/">`gulp`</a>.
 
+## Depreciated
+
+This package has been depreciated in favor of <a href="https://github.com/jonschlinkert/gulp-htmlmin">gulp-htmlmin</a>.
+
+
 ## Getting Started
 Install the module with: `npm install gulp-htmin --save-dev`
 
